@@ -13,6 +13,8 @@ set $mod Mod4
 
 # open firefox
 bindsym $mod+F1 exec firefox
+# open qutebrowser
+bindsym $mod+F2 exec qutebrowser
 
 # borders de ventana
 new_window none
@@ -245,7 +247,7 @@ bindsym $mod+m mode "move" focus floating
 #bar {
  #status_command i3status
 #}
-exec --no-startup-id feh --bg-fill /home/h4rdg4m3r/Pictures/Wallpapers/umbrella.jpg
+exec --no-startup-id feh --bg-fill /home/h4rdg4m3r/Pictures/Wallpapers/purplegirl.jpg
 exec --no-startup-id picom --config ~/.config/picom/picom.conf
 
 # exec terminator
